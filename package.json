@@ -1,0 +1,21 @@
+{
+  "name": "passwordreset",
+  "version": "1.0.0",
+  "description": "password reset backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "serve":"nodemon index.js"
+  },
+  "author": "Sridhar Rajaram",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongodb": "^4.2.2",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15"
+  }
+}
